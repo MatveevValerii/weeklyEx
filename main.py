@@ -9,8 +9,6 @@ import tkinter.font as tkFont
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 from matplotlib.figure import Figure
 
-
-
 class App:
     def __init__(self, root):
         # setting title
