@@ -13,7 +13,7 @@ class App:
     def __init__(self, root):
         # setting title
         root.title("undefined")
-        # setting window size
+        # setting window size     test
         width = 600
         height = 500
         screenwidth = root.winfo_screenwidth()
@@ -85,3 +85,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
     root.mainloop()
+    
+def testing():
+    print('sori, just trying to test if it works')
